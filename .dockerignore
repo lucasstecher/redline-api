@@ -1,0 +1,12 @@
+.github
+.husky
+__tests__
+database
+node_modules
+*.MD
+.eslintignore
+.eslintrc.js
+.prettierignore
+.prettierrc
+.sequelizerc
+jest.config.ts
