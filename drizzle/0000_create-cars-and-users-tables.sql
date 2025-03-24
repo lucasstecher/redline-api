@@ -1,7 +1,7 @@
 CREATE TYPE "public"."status" AS ENUM('available', 'sold', 'reserved');--> statement-breakpoint
 CREATE TYPE "public"."fuel_type" AS ENUM('gasoline', 'hybrid', 'electric');--> statement-breakpoint
 CREATE TYPE "public"."transmission" AS ENUM('manual', 'automatic');--> statement-breakpoint
-CREATE TYPE "public"."role" AS ENUM('user', 'admin');--> statement-breakpoint
+CREATE TYPE "public"."role" AS ENUM('customer', 'admin');--> statement-breakpoint
 CREATE TABLE "cars" (
 	"id" uuid PRIMARY KEY NOT NULL,
 	"model" varchar(255) NOT NULL,

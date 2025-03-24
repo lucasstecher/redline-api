@@ -5,6 +5,22 @@ export class carsRepository {
     
   }
 
+  public async getCar(id) {
+
+  }
+
+  public async getAllCars() {
+
+  }
+
+  public async getAvailableCars() {
+
+  }
+
+  public async getFilteredCars(input) {
+
+  }
+
   public async createCar(input) {
 
   }
@@ -13,9 +29,6 @@ export class carsRepository {
 
   }
 
-  public async getCar(id) {
-
-  }
 
   public async deleteCar(id) {
 
